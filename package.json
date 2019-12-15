@@ -1,0 +1,36 @@
+{
+  "name": "worker-emitter",
+  "version": "0.0.1",
+  "description": "Play with web worker like event.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saul-Mirone/event-worker.git"
+  },
+  "keywords": [
+    "worker",
+    "webworker",
+    "web-worker",
+    "event",
+    "emitter",
+    "worker-emitter"
+  ],
+  "author": "saul-mirone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saul-Mirone/event-worker/issues"
+  },
+  "homepage": "https://github.com/Saul-Mirone/event-worker#readme",
+  "devDependencies": {
+    "@type-config/strict": "^1.0.2",
+    "@types/uuid": "^3.4.6",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "uuid": "^3.3.3"
+  }
+}
