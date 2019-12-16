@@ -35,3 +35,7 @@ workerEmitter.emit('event-name', { foo: 'bar' }).then(res => {
   console.log(res); // <- get 'WorkerEmitter'
 });
 ```
+
+## License
+
+[MIT licensed](./LICENSE)
