@@ -58,6 +58,10 @@ export class WorkerEmitter {
       this.worker.postMessage(data.buffer, [data.buffer]);
     });
   }
+
+  terminate() {
+    this.worker.terminate();
+  }
 }
 
 type WorkerInstance = {
