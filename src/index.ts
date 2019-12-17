@@ -37,7 +37,10 @@ export class WorkerEmitter {
       const ret = this.messageMap.get(id);
       if (!ret) return;
 
-      ret.callback(message);
+      const { callback } = ret;
+
+      callback(message);
+      this.messageMap.delete(id);
     };
   }
 
